@@ -7,7 +7,7 @@ import {
   AiFillStar,
   AiOutlineStar,
 } from "react-icons/ai";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 
 const productDetails = ({ product, products }) => {
   const { image, name, details, price } = product;
